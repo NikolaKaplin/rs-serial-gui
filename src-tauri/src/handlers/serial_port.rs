@@ -1,6 +1,4 @@
-
-use serialport::{ SerialPortInfo};
-
+use serialport::SerialPortInfo;
 
 #[tauri::command]
 pub fn get_ports_info() -> Result<Vec<SerialPortInfo>, String> {
@@ -13,7 +11,6 @@ pub fn get_ports_info() -> Result<Vec<SerialPortInfo>, String> {
                 Ok(ports)
             }
         }
-        Err(e) => Err(format!("Ошибка при получении портов: {}", e))
+        Err(e) => Err(format!("Ошибка при получении портов: {}", e)),
     }
 }
-
