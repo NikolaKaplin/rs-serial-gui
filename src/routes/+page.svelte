@@ -86,7 +86,6 @@
 				<div
 					class="bg-gray-700/50 rounded-xl p-6 shadow-lg border border-gray-600/30 transition-all hover:border-indigo-400/30"
 				>
-					<!-- Основная информация в две колонки -->
 					<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
 						<!-- Колонка 1 -->
 						<div class="space-y-4">
@@ -126,7 +125,6 @@
 							</div>
 						</div>
 
-						<!-- Колонка 2 -->
 						<div class="space-y-4">
 							<div>
 								<p class="text-sm font-medium text-gray-400 mb-1">Статус</p>
@@ -154,7 +152,6 @@
 						</div>
 					</div>
 
-					<!-- Дополнительная информация -->
 					<div class="border-t border-gray-600/50 pt-6">
 						<h4 class="text-lg font-bold text-white mb-4 flex items-center">
 							<svg
